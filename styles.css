@@ -1,6 +1,11 @@
-
-
+html, body {
+	margin:0; padding:0;
+	height:100%;
+}
+ 
 body {
+	background:url('page_bg.jpg') 50% 50% no-repeat #FC3;
+	font-family:Georgia, Times, serifs;
     background-image: url('smoky-rubies-bg.jpg');
     background-color: #cccccc;
     #background-size: 1823px 869px
@@ -8,44 +13,20 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-
-h1 {
-    color: orange;
-    text-align: center;
+ 
+#floater {
+	position:relative; float:left;
+	height:50%;	margin-bottom:-100px;
+	width:1px;
+}
+ 
+#centered {
+	position:relative; clear:left;
+	height:200px; width:80%; min-width:400px;
+	margin:0 auto;
+	border:0px solid #666;
 }
 
-p {
-    font-family: Sans-Serif;
-    font-size: 20px;
-}
-
-img.splash {
-    float: left;
-    border-style: solid;
-    border-color: #9f9d9e;
-    border-width: 1px;
-    background-color: #b0e0e6;
-    margin: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-div {
-    background-color: #9f9d9e;
-    border-width: 1px;
-	width: 1400px;
-	height: 600px;
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
-}
-
-#container{width:100%;}
-#left{float:left;width:100px;}
-#right{float:right;width:100px;}
-#center{margin:0 auto;width:100px;}
-
-
+#left{float:left;height:100%;width:200px;border:solid;}
+#right{float:right;height:100%;width:200px;border:solid;}
+#center{margin:0 auto;height:100%;width:200px;border:solid;}

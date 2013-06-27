@@ -1,32 +1,60 @@
 html, body {
-	margin:0; padding:0;
-	height:100%;
+	margin: 0; 
+	padding: 0;
+	height: 100%;
 }
  
 body {
-	background:url('page_bg.jpg') 50% 50% no-repeat #FC3;
-	font-family:Georgia, Times, serifs;
+	font-family: Sans-Serif;
     background-image: url('smoky-rubies-bg.jpg');
-    background-color: #cccccc;
-    #background-size: 1823px 869px
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+	background-size: 1823px 869px;
 }
  
 #floater {
-	position:relative; float:left;
-	height:50%;	margin-bottom:-100px;
-	width:1px;
+	position: relative; 
+	float: left;
+	height: 50%;	
+	margin-bottom: -150px;
 }
  
 #centered {
-	position:relative; clear:left;
-	height:200px; width:80%; min-width:400px;
-	margin:0 auto;
-	border:0px solid #666;
+	position: relative; 
+	clear: left;
+	height: 300px; 
+	width: 80%; 
+	min-width: 400px;
+	margin: 0 auto;
 }
 
-#left{float:left;height:100%;width:200px;border:solid;}
-#right{float:right;height:100%;width:200px;border:solid;}
-#center{margin:0 auto;height:100%;width:200px;border:solid;}
+#left{
+	float: left;
+	height: 100%;
+	width: 300px;
+	border: 1px solid #9f9d9e;
+}
+
+#right{
+	float: right;
+	height: 100%;
+	width: 300px;
+	border: 1px solid #9f9d9e;
+}
+
+#center{
+	margin: 0 auto;
+	height: 100%;
+	width: 300px;
+	border: 1px solid #9f9d9e;
+}
+
+img.opacity {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}	
+	
+img.opacity:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	}

@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>rnchdog</title>
 	<link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="lightbox/css/lightbox.css" type="text/css" media="screen" />
 </head>
  
 <body>
@@ -11,14 +12,23 @@
 	<div id="floater">  </div>
 	<div id="centered">
 			<div id="left">
-				<img class="opacity" src="pictures/left.jpg" height="300" width="300">
+			  	<a href="pictures/left.jpg" rel="lightbox[sun]" title="Sunrise">
+				<img class="opacity" src="pictures/left.jpg" alt="Sun: image 1 of ? thumb" height="300" width="300"/></a>
+				<a href="pictures/bt%20(14).jpg" rel="lightbox[sun]"></a>
 			</div>
 			<div id="right">
-				<img class="opacity" src="pictures/right.jpg" height="300" width="300">
+				<a href="pictures/right.jpg" rel="lightbox[animals]" title="Animals">
+				<img class="opacity" src="pictures/right.jpg" alt="Animals: image 1 of ? thumb" height="300" width="300"/></a>
 			</div>
 			<div id="center">
-				<img class="opacity" src="pictures/center.jpg" height="300" width="300">
+				<a href="pictures/center.jpg" rel="lightbox[mountains]" title="Mountains">
+				<img class="opacity" src="pictures/center.jpg" alt="Animals: image 1 of ? thumb" height="300" width="300"/></a>
 			</div>
 	</div>
+	
+<script src="lightbox/js/jquery-1.7.2.min.js"></script>
+<script src="lightbox/js/jquery-ui-1.8.18.custom.min.js"></script>
+<script src="lightbox/js/jquery.smooth-scroll.min.js"></script>
+<script src="lightbox/js/lightbox.js"></script>
 </body>
 </html>

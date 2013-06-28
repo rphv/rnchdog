@@ -58,3 +58,10 @@ img.opacity:hover {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	}
+	
+.center
+{
+margin: auto;
+width: 400px;
+text-align: center;
+}

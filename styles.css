@@ -5,11 +5,12 @@ html, body {
 }
  
 body {
-	font-family: Sans-Serif;
-    background-image: url('smoky-rubies-bg.jpg');
-    background-attachment: fixed;
-    background-position: center;
-	background-size: 1823px 869px;
+    font-family: Sans-Serif;
+    background: #cbc8c3 url('smoky-rubies-bg.jpg') no-repeat center;
+    #background-attachment: fixed;
+    #background-position: center;
+    #background-size: 1823px 869px;
+    #background-repeat: no-repeat;
 }
  
 #floater {
@@ -64,7 +65,7 @@ img.opacity:hover {
 	
 .center{
 margin: auto;
-width: 400px;
+width: 800px;
 text-align: center;
 }
 
